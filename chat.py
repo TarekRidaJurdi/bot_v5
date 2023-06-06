@@ -310,4 +310,4 @@ def get_bot_response(msg: str,request: Request):
     return result
 
 if __name__ == "__main__":
-    uvicorn.run("main:app", reload=True)
+    uvicorn.run("chat:app", reload=True)
